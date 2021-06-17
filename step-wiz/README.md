@@ -23,3 +23,52 @@
 ### Resources
 
 - [React Router Explanation with Fetch Calls](https://www.youtube.com/watch?v=Law7wfdg_ls&list=PLfCYvVaTsn8d20NVyCJIJCEeqNVBlQh5k&index=3&t=1621s)
+
+## Task Four
+
+**How do you make sure that the user remains authenticated on page refresh while using Context API State Management?**
+
+> First approach is to use JSON Web Tokens (JWT) on front end that queries the server for a JWT in the local storage of your browser (local storage, session storage, cookies). This reasonable secure approach from a front end side.
+
+```javascript
+localStoage.setItem(LoginState, Token);
+```
+
+## Task Five
+
+**Given the code defined above, can you identify two problems?**
+
+```javascript
+class MyComponent extends React.Component {
+  constructor(props) {
+    // set the default internal state
+    this.state = {
+      clicks: 0,
+    };
+  }
+  componentDidMount() {
+    this.refs.myComponentDiv.addEventListener("click", this.clickHandler);
+  }
+  componentWillUnmount() {
+    this.refs.myComponentDiv.removeEventListener("click", this.clickHandler);
+  }
+  clickHandler() {
+    this.setState({
+      clicks: this.clicks + 1,
+    });
+  }
+  render() {
+    let children = this.props.children;
+    return (
+      <div className="my-component" ref="myComponentDiv">
+        <h2>My Component ({this.state.clicks} clicks})</h2>
+        <h3>{this.props.headerText}</h3>
+        {children}
+      </div>
+    );
+  }
+}
+```
+
+> 1. **this** Must call super constructor in derived class before accessing 'this' or returning from derived constructor.
+> 2. The clickHandler event is never called to increment the click counter.
