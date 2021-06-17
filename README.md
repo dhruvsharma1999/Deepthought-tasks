@@ -1,4 +1,4 @@
-# Deepthought Technical Assesment
+# Deepthought Technical Assessment
 
 ## Notes to Recruiters
 
@@ -20,3 +20,21 @@
 3. My Learning Outcomes from All three Projects.
 4. Resource that came in Handy.
 5. Conclusion.
+
+## Task One Giphy Search Engine
+
+| Sl.No | Template Name | Live/ Code                                                                                                                         |
+| ----- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 01    | Giphy Search  | [code](https://github.com/dhruvsharma1999/Deepthought-tasks/tree/main/giphy-search)/ [Live](https://giphy-gif-search.netlify.app/) |
+
+## Task Two Basket App
+
+| Sl.No | Template Name | Live/ Code                                                                                                                           |
+| ----- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 01    | Basket App    | [code](https://github.com/dhruvsharma1999/Deepthought-tasks/tree/main/basket-app)/ [Live](https://basket-grossries-app.netlify.app/) |
+
+## Task Three Giphy Search Engine
+
+| Sl.No | Template Name    | Live/ Code                                                                                                                                  |
+| ----- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01    | Step Wizard Form | [code](https://github.com/dhruvsharma1999/Deepthought-tasks/tree/main/step-wiz)/ [Live](https://simple-wizard-step-form-react.netlify.app/) |
