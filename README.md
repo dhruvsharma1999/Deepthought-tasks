@@ -31,9 +31,10 @@
 
 ### Learning Outcomes and Thought process
 
-- This was a easy task in comparison to other, but still practiced few skiils
+- This was a easy task in comparison to other, but still practiced few skiils.
 - Created Developer Giphy API to fetch the data.
-- Given to simplicity of project, I did eveything in one file and imported that to App component.
+- Given the simplicity of project, I did eveything in one file and imported that to App component.
+- The sketch shows mapping of components into seperate containers for uasability, which I plan to implement in upcoming days.
 
 ![Giphy App](/img/gifgiphymodel.png)
 
@@ -59,7 +60,7 @@
 ### Learning Outcomes and Thought process
 
 - I have already implemented this task, while I was learning react few months back, hence it was a brush for me, this was the most complex task out of all.
-- useReducer is always a very confusing topic, but this project include the usage of this hook, I was able to understanf useReducer at a practical level.
+- useReducer is always a very confusing topic, but this project include the usage of this hook, it was able to understanf useReducer at a practical level.
 - React portals never came in handy in any of my recent projects, hence it was good learning opporunity.
 - Dues to time limit, I was not able to use useContextAPI for passing all the props, This can be a **further improvement point** for this project.
 - I used module.css files, for having style sheet in coordination to the Component files.
@@ -152,3 +153,13 @@ class MyComponent extends React.Component {
 
 > 1. **this** Must call super constructor in derived class before accessing 'this' or returning from derived constructor.
 > 2. The clickHandler event is never called to increment the click counter.
+
+## Conclusion
+
+> All the technical task were fun and had opprtuinity to brush up existing skiils, their were no constraints for the projects, that is the best part, I was able to implement them with my own thought process and approach while keepig the core features intact.
+
+> It was a good sprint implementing these tasks, I am trying to imporve my CSS skiils to make front-end look much better, these tasks gave me a good opportunity to practice that.
+
+> I was also able to work on my logical skills as the the projects include alot of state transions, which requires some brainstorming, hence very good fromt that side.
+
+> As a candidate, I would like to say the chosen projects were really interactive and great to assess the onces skill, I learned alot while implementing these tasks.

@@ -8,11 +8,10 @@
 
 ### Learning Outcomes and Thought process
 
-- This was a easy task in comparison to other, but still practiced few skiils
+- This was a easy task in comparison to other, but still practiced few skiils.
 - Created Developer Giphy API to fetch the data.
-- Given to simplicity of project, I did eveything in one file and imported that to App component.
-
-![Giphy App](/img/gifgiphymodel.png)
+- Given the simplicity of project, I did eveything in one file and imported that to App component.
+- The sketch shows mapping of components into seperate containers for uasability, which I plan to implement in upcoming days.
 
 ### Approach
 
