@@ -2,6 +2,7 @@ import "./App.css";
 import SearchGifs from "./SearchGifs";
 
 function App() {
+  //Main app components rendering search Gif Component
   return (
     <div className="App">
       <div className="container">
@@ -13,3 +14,4 @@ function App() {
 }
 
 export default App;
+git a
