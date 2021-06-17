@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Card from "./Card";
 import Button from "./Button";
 import classes from "./Home.module.css";
-import { Form, Input } from "usetheform";
 import { Link } from "react-router-dom";
 
-const fourthPage = (props) => {
+const FourthPage = (props) => {
+  //
   return (
     <div>
       <Card className={classes.input}>
@@ -20,4 +20,4 @@ const fourthPage = (props) => {
   );
 };
 
-export default fourthPage;
+export default FourthPage;

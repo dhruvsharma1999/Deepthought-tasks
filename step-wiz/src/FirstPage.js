@@ -2,21 +2,20 @@ import React, { useState } from "react";
 import Card from "./Card";
 import Button from "./Button";
 import classes from "./Home.module.css";
-import { Form, Input } from "usetheform";
-import MoveNav from "./MoveNav";
 import { Link } from "react-router-dom";
 
 const FirstPage = (props) => {
-  const [enteredUsername, setEnteredUsername] = useState("");
+  const [enteredUsername, setEnteredUsername] = useState(""); //State to trigger onchange event on the input feild of the form
 
   const usernameChangeHandler = (event) => {
+    //event handler to handle the onchange event of the user.
     setEnteredUsername(event.target.value);
   };
 
   return (
     <div>
       <Card className={classes.input}>
-        <Form name="page2" {...props}>
+        <form name="page2" {...props}>
           <label htmlFor="email">Enter Email</label>
           <input
             id="email"
@@ -24,14 +23,16 @@ const FirstPage = (props) => {
             value={enteredUsername}
             onChange={usernameChangeHandler}
           />
-        </Form>
+        </form>
       </Card>
       <Card className={classes.input}>
+        {/* Previous button setting the link to / which renders the Home compoenent */}
         <Link to="/">
           <Button type="submit" onSubmit={props.prevPage}>
             Previous
           </Button>
         </Link>
+        {/* Next button setting the link to /thirdpage which renders the Secong Page component */}
         <Link to="/thirdpage">
           <Button type="submit" onSubmit={props.onSubmit}>
             Next

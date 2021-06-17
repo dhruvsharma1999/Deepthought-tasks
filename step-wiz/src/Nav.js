@@ -3,6 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import "./App.css";
 
 const Nav = () => {
+  // Nav component to render a sticky header with links to home and about component
   const navStyle = {
     color: "white",
     textDecoration: "none",

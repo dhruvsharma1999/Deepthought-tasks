@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Card from "./Card";
 import Button from "./Button";
 import classes from "./Home.module.css";
-import { Form, Input } from "usetheform";
 import { Link } from "react-router-dom";
 const About = () => {
+  // About Component rendering a simple card with information about the application
   return (
     <div>
       <Card className={classes.input}>

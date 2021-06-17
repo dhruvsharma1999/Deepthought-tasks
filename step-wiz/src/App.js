@@ -6,9 +6,9 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useMultipleForm } from "usetheform";
 import FirstPage from "./FirstPage";
-import secondPage from "./SecondPage";
-import thirdPage from "./ThirdPage";
-import fourthPage from "./FourthPage";
+import SecondPage from "./SecondPage";
+import ThirdPage from "./ThirdPage";
+import FourthPage from "./FourthPage";
 
 function App() {
   return (
@@ -17,12 +17,18 @@ function App() {
         <div>
           <Nav></Nav>
           <Switch>
+            {/* rendering Home component when route matches / */}
             <Route path="/" exact component={Home} />
+            {/* rendering About component when route matches /about */}
             <Route path="/about" exact component={About} />
+            {/* rendering FirstPage component when route matches /secondform */}
             <Route path="/secondform" exact component={FirstPage} />
-            <Route path="/thirdpage" exact component={secondPage} />
-            <Route path="/fourthpage" exact component={thirdPage} />
-            <Route path="/fifthpage" exact component={fourthPage} />
+            {/* rendering SecondPage component when route matches /thirdpage */}
+            <Route path="/thirdpage" exact component={SecondPage} />
+            {/* rendering ThirdPage component when route matches /fourthpage */}
+            <Route path="/fourthpage" exact component={ThirdPage} />
+            {/* rendering Fourth component when route matches /fifthpage */}
+            <Route path="/fifthpage" exact component={FourthPage} />
           </Switch>
         </div>
       </Router>

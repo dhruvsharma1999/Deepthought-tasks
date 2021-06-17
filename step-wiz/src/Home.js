@@ -5,10 +5,10 @@ import Card from "./Card";
 import Button from "./Button";
 import classes from "./Home.module.css";
 import { Form, Input } from "usetheform";
-import FirstPage from "./FirstPage";
-import MoveNav from "./MoveNav";
 
 const Home = (props) => {
+  //Home component which renders initially when the screen loads
+  //Simple component rendering a first and last name input on a card with button to change route to next page
   const [enteredUsername, setEnteredUsername] = useState("");
   const [enteredAge, setEnteredAge] = useState("");
 
