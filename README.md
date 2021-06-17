@@ -103,4 +103,3 @@
 ### Resources
 
 - [React Router Explanation with Fetch Calls](https://www.youtube.com/watch?v=Law7wfdg_ls&list=PLfCYvVaTsn8d20NVyCJIJCEeqNVBlQh5k&index=3&t=1621s)
--
